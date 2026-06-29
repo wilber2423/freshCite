@@ -7,11 +7,9 @@ const ThirdSummary = () => {
   return (
     <div className="space-y-5">
       <div className="items-center justify-between block gap-4 px-6 py-3 space-y-2 customXlg:flex card text-customGray-400 customXlg:space-y-0">
-        <h2 className="font-bold min-w-fit">
-          Ready to Meet Your Team at Citi?
-        </h2>
+        <h2 className="font-bold min-w-fit">Ready to Meet Your Team?</h2>
         <p className=" text-customXST1">
-          Speak with one of our bankers about getting the most out of your Citi
+          Speak with one of our bankers about getting the most out of your
           accounts
         </p>
         <button className="px-2 py-1 font-bold text-white rounded-xl min-w-max bg-customBlue-500 text-customXST">
@@ -39,7 +37,7 @@ const ThirdSummary = () => {
           </p>
         </div>
         <button className="w-full px-4 py-2 font-bold text-white rounded-lg customMiniTablet:w-max min-w-fit bg-customBlue-500">
-          Use Citi Mobile&reg;
+          Use Mobile
         </button>
       </div>
     </div>

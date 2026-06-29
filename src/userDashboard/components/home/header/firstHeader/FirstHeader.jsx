@@ -19,9 +19,9 @@ const FirstHeader = ({ main, link }) => {
             <Link to={link} reloadDocument>
               <img src={citiLogo} alt="" className="object-cover w-28" />
             </Link>
-            <div>
+            {/* <div>
               <img src={Fdic} alt="" className="mt-3" />
-            </div>
+            </div> */}
           </div>
           <div className="hidden customXlg:block">
             <div className="relative flex items-center space-x-9">

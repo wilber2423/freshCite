@@ -10,8 +10,7 @@ const ExploreCustomer = () => {
             className="w-full mb-5 customXlg:w-max customXlg:mb-0"
           />
           <p className="font-light text-customGray-400">
-            Explore all the benefits of being a Citibank<sup>&reg;</sup>{" "}
-            customer
+            Explore all the benefits of being a customer
           </p>
         </div>
         <button className="font-bold text-customXST">Learn More</button>
