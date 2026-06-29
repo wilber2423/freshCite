@@ -33,7 +33,7 @@ const Header = () => {
     {
       id: 3,
       path: "/dashboard/savings-accounts",
-      element: " Saving Account",
+      element: "Pz Saving Account",
       elemetNumber: `-${savingNav}`,
       amount: numberChecking2,
       available: "On Deposit",

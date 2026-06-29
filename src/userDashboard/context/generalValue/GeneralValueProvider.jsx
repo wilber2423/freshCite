@@ -2,7 +2,7 @@ import { GeneralContext } from "./GeneralValueContext";
 
 const GeneralValueProvider = ({ children }) => {
   const phoneNumber = "*** *** 5841";
-  const checkingNav = "1261";
+  const checkingNav = "2196";
   const savingNav = "7367";
   const checkingRouNum = "78452196";
   const countrtState = "New York";

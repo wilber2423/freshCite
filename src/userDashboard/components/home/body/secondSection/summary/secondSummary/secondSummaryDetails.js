@@ -30,12 +30,12 @@ export const secondSummaryDetails2 = [
     path: "/payDashboard/bills",
     icon: TbFileDollar,
   },
-  {
-    id: 5,
-    name: "Send Money with zelle",
-    path: "/payDashboard/zelle",
-    icon: TbMailDollar,
-  },
+  // {
+  //   id: 5,
+  //   // name: "Send Money with zelle",
+  //   path: "/payDashboard/zelle",
+  //   icon: TbMailDollar,
+  // },
   {
     id: 6,
     name: "View All Services",

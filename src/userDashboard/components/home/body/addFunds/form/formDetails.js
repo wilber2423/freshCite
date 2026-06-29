@@ -19,7 +19,7 @@ export const formDetails = [
 export const formDetails1 = [
   {
     id: 1,
-    label: "Checking-1261",
+    label: "Checking-2196",
   },
   {
     id: 2,
