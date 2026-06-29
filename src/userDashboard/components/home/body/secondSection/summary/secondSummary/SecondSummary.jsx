@@ -24,7 +24,7 @@ const SecondSummary = () => {
     },
     {
       id: 2,
-      label: `Citi® Savings Account-${savingNav}`,
+      label: ` Savings Account-${savingNav}`,
       path: "savings-accounts",
       body: <Savings />,
     },
@@ -53,11 +53,10 @@ const SecondSummary = () => {
                     "flex items-center justify-between px-5 py-3 font-bold bg-white border border-customGray-600 rounded-xl text-customBlue-500 text-customXST focus:ring-2 focus:ring-offset-1 focus:ring-customBlue-500 focus:ring-opacity-50 focus:bg-customBlue-400 w-full",
                     selectedItems.label === `Citi® Savings Account-${savingNav}`
                       ? "gap-1"
-                      : "gap-9"
+                      : "gap-9",
                   )}
                 >
-                  {selectedItems.label ===
-                  `Citi® Savings Account-${savingNav}` ? (
+                  {selectedItems.label === ` Savings Account-${savingNav}` ? (
                     <>
                       <div className="hidden customXlg:block">
                         Citi&reg; {selectedItems.label.slice(0, 13)}...

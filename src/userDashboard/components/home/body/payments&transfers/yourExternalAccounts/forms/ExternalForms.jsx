@@ -36,7 +36,7 @@ const ExternalForms = () => {
   const savingAmount = useSelector(selectedSavingAmount);
   const { accountAvailable } = useExternalArrays();
   const { amount, errorAmount } = useSelector(
-    selectedSelectorAmount("exterForms")
+    selectedSelectorAmount("exterForms"),
   );
   const transferInfo = useSelector(selectedTransferInfo);
   const allSelectedAccount = [...accountAvailable, ...bankInfo];
@@ -44,7 +44,7 @@ const ExternalForms = () => {
     useSelectedAccounts(
       "from",
       "Please choose a Transfer From account to continue.",
-      allSelectedAccount
+      allSelectedAccount,
     );
   const {
     isBankOpen: isBankOpenTo,
@@ -55,7 +55,7 @@ const ExternalForms = () => {
   } = useSelectedAccounts(
     "to",
     "Please choose a Transfer To account to continue.",
-    allSelectedAccount
+    allSelectedAccount,
   );
   const {
     isBankOpen: isBankOpenFr,
@@ -84,7 +84,7 @@ const ExternalForms = () => {
             valueInput: amount,
             emptyMessage:
               "Please enter a dollar amount to proceed with this transfer.",
-          })
+          }),
         );
         hasError = true;
       }
@@ -96,7 +96,7 @@ const ExternalForms = () => {
             valueInput: amount,
             emptyMessage:
               "Please enter a dollar amount to proceed with this transfer.",
-          })
+          }),
         );
         hasError = true;
       }
@@ -108,7 +108,7 @@ const ExternalForms = () => {
           mainBankError({
             type: "from",
             errorMessage: "Please choose a Transfer From account to continue.",
-          })
+          }),
         );
         hasError = true;
       }
@@ -117,7 +117,7 @@ const ExternalForms = () => {
           mainBankError({
             type: "to",
             errorMessage: "Please choose a Transfer To account to continue.",
-          })
+          }),
         );
         hasError = true;
       }
@@ -126,7 +126,7 @@ const ExternalForms = () => {
           mainBankError({
             type: "frequency",
             errorMessage: "Please select a frequency.",
-          })
+          }),
         );
         hasError = true;
       }
@@ -155,7 +155,7 @@ const ExternalForms = () => {
         }, 1000);
       } else if (
         toSelectAcc ===
-        `Citi® Savings:${savingNav} $${savingAmount.toLocaleString()} available`
+        ` Savings:${savingNav} $${savingAmount.toLocaleString()} available`
       ) {
         setTimeout(() => {
           setRestrictionVal(true);

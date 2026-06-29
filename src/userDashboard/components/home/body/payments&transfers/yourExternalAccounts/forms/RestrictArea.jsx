@@ -19,7 +19,7 @@ const RestrictArea = ({ cancel }) => {
         exit={{ y: -100, opacity: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 50 }}
         className={clsx(
-          "relative w-full  h-full  rounded-lg text-customGray-400  customMiniTablet:mt-8  customMiniTablet:w-[700px] px-3"
+          "relative w-full  h-full  rounded-lg text-customGray-400  customMiniTablet:mt-8  customMiniTablet:w-[700px] px-3",
         )}
       >
         <span
@@ -36,7 +36,7 @@ const RestrictArea = ({ cancel }) => {
             We are currently unable to process incoming transfers to the
             selected{" "}
             <span className="font-semibold">
-              Checking:{checkingNav} / Citi® Savings:{savingNav} account
+              Checking:{checkingNav} / Savings:{savingNav} account
             </span>{" "}
             at this time.
           </p>

@@ -7,7 +7,7 @@ const AccountSavings = () => {
   const { savingAmount } = useContext(SavingsTransactionContext);
   const numberSavings = savingAmount.toLocaleString();
   const { savingNav } = useContext(GeneralContext);
-  const theName = `Citi® Savings Account-${savingNav}`;
+  const theName = `Savings Account-${savingNav}`;
 
   return (
     <div>

@@ -23,7 +23,7 @@ const useExternalArrays = () => {
     },
     {
       id: 2,
-      bankName: `Citi® Savings:${savingNav} $${savingAmount.toLocaleString()} available`,
+      bankName: `Savings:${savingNav} $${savingAmount.toLocaleString()} available`,
     },
     {
       id: 3,
@@ -38,7 +38,7 @@ const useExternalArrays = () => {
     },
     {
       id: 2,
-      label: `Citi® Savings Account-${savingNav}`,
+      label: ` Savings Account-${savingNav}`,
     },
     {
       id: 3,
@@ -58,7 +58,7 @@ const useExternalArrays = () => {
         },
         {
           id: 3,
-          label: `Citi® Savings Account-${savingNav}`,
+          label: ` Savings Account-${savingNav}`,
           info: "Looks like you don't have any recent activity",
         },
       ],

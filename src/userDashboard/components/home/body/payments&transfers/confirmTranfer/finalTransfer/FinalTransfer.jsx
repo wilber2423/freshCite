@@ -62,7 +62,7 @@ const FinalTransfer = () => {
       transfer?.fromAccount ===
         `Checking:${checkingNav} $${checkingAmount.toLocaleString()} available` ||
       transfer?.fromAccount ===
-        `Citi® Savings:${savingNav} $${savingAmount.toLocaleString()} available` ||
+        `Savings:${savingNav} $${savingAmount.toLocaleString()} available` ||
       transfer?.fromAccount === accountMoney;
 
     // setTimeout(() => {

@@ -27,7 +27,7 @@ const Recommended = () => {
 
               <div>
                 <h3 className="font-extrabold text-[14px] text-customGray-400 mb-2">
-                  Discover Citi Wealth Builder
+                  Discover Wealth Builder
                 </h3>
                 <p className="mb-2 text-customXST text-customGray-200">
                   Pay $0 advisory fee for the first 6 months after account
@@ -69,7 +69,7 @@ const Recommended = () => {
           <div className="flex items-center gap-3 ">
             <GrTag size={26} />
             <p className="font-normal transistion group-hover:underline">
-              View All Citi Offers for You
+              View All Offers for You
             </p>
           </div>
           <GoChevronRight size={35} />

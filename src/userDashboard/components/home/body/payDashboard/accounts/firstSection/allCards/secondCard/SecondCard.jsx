@@ -56,7 +56,7 @@ const SecondCard = () => {
             </tr>
             <tr className="text-sm font-light text-customGray-400 customMiniTablet:text-base">
               <td className="py-6 pr-2 pl-0 text-start w-[42%]">
-                Citi® Savings Account-{savingNav}{" "}
+                Savings Account-{savingNav}{" "}
                 <span className="block text-[10px] text-customGray-200 ">
                   ****{savingNav}
                 </span>

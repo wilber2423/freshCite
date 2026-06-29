@@ -33,7 +33,7 @@ const Header = () => {
     {
       id: 3,
       path: "/dashboard/savings-accounts",
-      element: " Savings Account",
+      element: " Saving Account",
       elemetNumber: `-${savingNav}`,
       amount: numberChecking2,
       available: "On Deposit",
@@ -58,7 +58,7 @@ const Header = () => {
               }
               end
             >
-              Citi Summary
+              Summary
             </NavLink>
           </div>
           <div>

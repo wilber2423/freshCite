@@ -35,7 +35,7 @@ const HomeDashboard = () => {
           "block  customMiniTablet:flex customXlg:container customXlg:mx-auto",
           isMobile && isTargetedLocation
             ? "bg-customGray-300"
-            : "bg-customBlue-400"
+            : "bg-customBlue-400",
         )}
       >
         {(!isMobile || !isTargetedLocation) && (
@@ -51,7 +51,7 @@ const HomeDashboard = () => {
               className="flex items-center gap-1 pt-4 pl-2 -mb-3 font-extrabold text-customBlue-500 hover:text-customBlue-300"
             >
               <BsChevronLeft size={16} className="mb-1" />
-              <p>Back to Citi Summary</p>
+              <p>Back to Summary</p>
             </Link>
           </>
         )}
