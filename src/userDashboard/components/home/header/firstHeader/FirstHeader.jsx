@@ -1,4 +1,4 @@
-import citiLogo from "../../../../../assets/header-img/citiredesign.svg";
+import citiLogo from "../../../../../assets/header-img/citiImg.png";
 import { PiUser } from "react-icons/pi";
 import { SlLocationPin } from "react-icons/sl";
 import MenuMaps from "./menus/MenuMaps";
@@ -17,7 +17,7 @@ const FirstHeader = ({ main, link }) => {
         <div className="flex items-center justify-between ">
           <div className="flex items-center gap-3">
             <Link to={link} reloadDocument>
-              <img src={citiLogo} alt="" />
+              <img src={citiLogo} alt="" className="object-cover w-28" />
             </Link>
             <div>
               <img src={Fdic} alt="" className="mt-3" />
