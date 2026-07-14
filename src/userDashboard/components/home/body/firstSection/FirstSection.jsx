@@ -37,7 +37,7 @@ const FirstSection = () => {
           <Greetings />, {userName}
         </h3>
         {/* {lastLoginInfo && ( */}
-        <p className="text-customXST text-customGray-200">
+        {/* <p className="text-customXST text-customGray-200">
           {lastLoginInfo
             ? `Last sign on: ${lastLoginInfo.date?.toLocaleString("en-US", {
                 dateStyle: "medium",
@@ -45,7 +45,7 @@ const FirstSection = () => {
                 timeZone: "America/New_York", // or your desired time zone
               })} from ${lastLoginInfo.device}.`
             : "Loading last sign-on..."}
-        </p>
+        </p> */}
         {/* )} */}
       </div>
       <Header />
