@@ -15,6 +15,9 @@ const FirstPart = () => {
   const handleId = (id) => {
     setIsOpen((prev) => (prev === id ? null : id));
   };
+
+  const year = new Date().getFullYear();
+
   return (
     <div className="pt-10 mb-6">
       <div className="justify-between hidden customTablet1:flex ">
@@ -76,8 +79,8 @@ const FirstPart = () => {
         </div>
       </div>
       <div className="gap-2 py-8 mt-10 space-y-4 font-light border-t border-b border-white customTablet1:space-y-0 customTablet1:flex border-opacity-30">
-        <h3 className="font-extrabold">© 2025 Pzgroup Inc Inc</h3>
-        <div className="gap-2 space-y-4  customTablet1:space-y-0 customTablet1:flex">
+        <h3 className="font-extrabold">© {year} Pzgroup Inc</h3>
+        <div className="gap-2 space-y-4 customTablet1:space-y-0 customTablet1:flex">
           {footer2.map((foo, i) => (
             <p key={i}>{foo.name}</p>
           ))}
