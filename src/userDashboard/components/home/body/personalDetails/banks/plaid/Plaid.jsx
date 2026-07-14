@@ -26,7 +26,7 @@ const Plaid = ({ cancel, mainCancel, setIsChecked }) => {
         exit={{ y: -100, opacity: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 50 }}
         className={clsx(
-          " h-screen customXlg:h-full bg-white rounded-lg text-customGray-400  customXlg:mx-[27.7rem] w-full customXlg:mt-2 overflow-y-scroll  "
+          " h-screen customXlg:h-full bg-white rounded-lg text-customGray-400  customXlg:mx-[27.7rem] w-full customXlg:mt-2 overflow-y-scroll  ",
         )}
       >
         <div className={clsx(selectedBank ? "hidden" : "block")}>
@@ -42,8 +42,8 @@ const Plaid = ({ cancel, mainCancel, setIsChecked }) => {
                 <img src={headerImage} alt="" className="w-[230px] h-[90px]" />
               </div>
               <h2 className="text-xl text-center text-customGray-900">
-                Citi uses <span className="font-bold">Plaid</span> to connect
-                your account
+                Pz uses <span className="font-bold">Plaid</span> to connect your
+                account
               </h2>
               <div className="px-4 pt-5 pb-5 space-y-5 text-sm border text-customGray-900 border-customGray-1002 rounded-xl">
                 {plaidRules.map((plaid) => {
@@ -54,7 +54,7 @@ const Plaid = ({ cancel, mainCancel, setIsChecked }) => {
                         className={clsx(
                           title === "Connect effortlessly"
                             ? "text-[25px]"
-                            : "text-xl"
+                            : "text-xl",
                         )}
                       />
                       <div>

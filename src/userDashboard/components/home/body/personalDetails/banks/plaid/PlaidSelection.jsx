@@ -72,7 +72,7 @@ const PlaidSelection = ({
             <span className="font-semibold text-customGray-900">
               {bankName}
             </span>{" "}
-            account you select with Citi
+            account you select with Pz
           </p>
         </div>
 
@@ -101,7 +101,7 @@ const PlaidSelection = ({
                     "rounded-full w-[12px] h-[12px]",
                     selectedAccount.name === bank.name
                       ? "bg-customGray-900"
-                      : ""
+                      : "",
                   )}
                 ></p>
               </div>
@@ -109,7 +109,7 @@ const PlaidSelection = ({
                 className={clsx(
                   selectedAccount.name === bank.name
                     ? "text-cug9bg-customGray-900 font-bold text-[19px] hover:underline"
-                    : "text-customGray-400 hover:text-customGray-400 hover:underline  text-[19px]"
+                    : "text-customGray-400 hover:text-customGray-400 hover:underline  text-[19px]",
                 )}
               >
                 {bank.name}

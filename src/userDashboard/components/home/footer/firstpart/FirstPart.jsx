@@ -17,15 +17,15 @@ const FirstPart = () => {
   };
   return (
     <div className="pt-10 mb-6">
-      <div className="hidden customTablet1:flex justify-between ">
+      <div className="justify-between hidden customTablet1:flex ">
         {footer1.map((foo, i) => {
           const { name, children } = foo;
           return (
             <div key={i}>
-              <h3 className="font-extrabold text-sm mb-4 ">{name}</h3>
+              <h3 className="mb-4 text-sm font-extrabold ">{name}</h3>
               <div className="font-extralight ">
                 {children.map((chi, i) => (
-                  <p key={i} className="hover:underline transistion3 pb-3">
+                  <p key={i} className="pb-3 hover:underline transistion3">
                     {chi.name}
                   </p>
                 ))}
@@ -37,14 +37,14 @@ const FirstPart = () => {
           <img src={House} alt="" />
         </div>
       </div>
-      <div className="space-y-6 customTablet1:hidden justify-between ">
+      <div className="justify-between space-y-6 customTablet1:hidden ">
         {footer1.map((foo, i) => {
           const { name, children } = foo;
           return (
             <div key={i} className="border-b border-b-white border-opacity-30">
               <h3
                 onClick={() => handleId(name)}
-                className="font-extrabold text-sm mb-4 flex justify-between"
+                className="flex justify-between mb-4 text-sm font-extrabold"
               >
                 {name}
                 <FaAngleDown />
@@ -52,7 +52,7 @@ const FirstPart = () => {
               <div className="font-extralight ">
                 {isOpen === name &&
                   children.map((chi, i) => (
-                    <p key={i} className="hover:underline transistion3 pb-3">
+                    <p key={i} className="pb-3 hover:underline transistion3">
                       {chi.name}
                     </p>
                   ))}
@@ -64,7 +64,7 @@ const FirstPart = () => {
           <img src={House} alt="" />
         </div>
       </div>
-      <div className="mt-10 space-y-4 customTablet1:space-y-0  customTablet1:flex justify-between items-center">
+      <div className="items-center justify-between mt-10 space-y-4 customTablet1:space-y-0 customTablet1:flex">
         <div className="flex gap-5">
           <img src={Google} alt="" className="w-[137px] h-10 object-contain" />
           <img src={Apple} alt="" className="w-[120px] h-10 object-contain" />
@@ -75,9 +75,9 @@ const FirstPart = () => {
           <FaYoutube />
         </div>
       </div>
-      <div className="mt-10 space-y-4 customTablet1:space-y-0 customTablet1:flex gap-2 font-light py-8 border-t border-b border-white border-opacity-30">
-        <h3 className="font-extrabold">© 2025 Citigroup Inc Inc</h3>
-        <div className=" space-y-4 customTablet1:space-y-0 customTablet1:flex  gap-2">
+      <div className="gap-2 py-8 mt-10 space-y-4 font-light border-t border-b border-white customTablet1:space-y-0 customTablet1:flex border-opacity-30">
+        <h3 className="font-extrabold">© 2025 Pzgroup Inc Inc</h3>
+        <div className="gap-2 space-y-4  customTablet1:space-y-0 customTablet1:flex">
           {footer2.map((foo, i) => (
             <p key={i}>{foo.name}</p>
           ))}

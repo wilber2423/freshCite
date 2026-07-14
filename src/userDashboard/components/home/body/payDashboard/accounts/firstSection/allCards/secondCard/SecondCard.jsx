@@ -22,7 +22,7 @@ const SecondCard = () => {
     <>
       <div className="px-6 pt-4 pb-2 card2">
         <h4 className="mb-3 font-extrabold text-customGray-900">
-          Transfer Between Your Citi Accounts
+          Transfer Between Your Pz Accounts
         </h4>
         <table className="w-full border-collapse">
           <thead>

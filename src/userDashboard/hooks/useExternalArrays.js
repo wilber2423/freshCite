@@ -131,7 +131,7 @@ const useExternalArrays = () => {
         {
           id: 4,
           path: "/dashboard/savings-accounts",
-          element: `CitiSavi...${savingNav}`,
+          element: `PzSavi...${savingNav}`,
         },
       ],
     },
@@ -163,7 +163,7 @@ const useExternalArrays = () => {
             {
               id: 11,
               path: "/payDashboard/accounts",
-              element: "Your Citi Accounts",
+              element: "Your Pz Accounts",
             },
             {
               id: 12,
@@ -277,9 +277,9 @@ const useExternalArrays = () => {
             {
               id: 45,
               path: "/citigold-private-client",
-              element: "Citigold Private Client",
+              element: "Pzgold Private Client",
             },
-            { id: 46, path: "/citigold", element: "Citigold" },
+            { id: 46, path: "/citigold", element: "Pzgold" },
             {
               id: 47,
               path: "/find-wealth-team",
@@ -295,7 +295,7 @@ const useExternalArrays = () => {
       checked: "Singled",
       children: [
         { id: 49, path: "/offers-for-you", element: "Offers for You" },
-        { id: 50, path: "/citi-entertainment", element: "Citi Entertainment" },
+        { id: 50, path: "/citi-entertainment", element: "Pz Entertainment" },
         { id: 51, path: "/special-offers", element: "Special Offers" },
         {
           id: 52,

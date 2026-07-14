@@ -4,14 +4,14 @@ import Citi from "../../../../assets/footer/citiredesign-footer.svg";
 
 const Footer = () => {
   return (
-    <div className="bg-customGray-400  text-white text-xs  ">
+    <div className="text-xs text-white bg-customGray-400 ">
       <div className="customXlg:container customXlg:mx-auto px-[1rem]  customTablet1:px-[5.2rem]">
         <FirstPart />
         <SecondPart />
       </div>
-      <div className="ml-1 customTablet1:ml-8">
+      {/* <div className="ml-1 customTablet1:ml-8">
         <img src={Citi} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };

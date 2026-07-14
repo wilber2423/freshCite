@@ -59,10 +59,10 @@ const SecondSummary = () => {
                   {selectedItems.label === ` Savings Account-${savingNav}` ? (
                     <>
                       <div className="hidden customXlg:block">
-                        Citi&reg; {selectedItems.label.slice(0, 13)}...
+                        Pz&reg; {selectedItems.label.slice(0, 13)}...
                       </div>
                       <div className="customXlg:hidden">
-                        Citi&reg; {selectedItems.label}
+                        Pz&reg; {selectedItems.label}
                       </div>
                     </>
                   ) : (

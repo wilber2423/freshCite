@@ -16,7 +16,7 @@ const ExternalPopUp = ({ cancel }) => {
         exit={{ opacity: 0 }}
         className={clsx(
           "fixed top-0 left-0 z-50 flex justify-center min-w-full min-h-full overflow-auto bg-opacity-85 bg-customGray-200 ",
-          existPlan ? "hidden" : "block"
+          existPlan ? "hidden" : "block",
         )}
       >
         <motion.div
@@ -25,7 +25,7 @@ const ExternalPopUp = ({ cancel }) => {
           exit={{ y: -100, opacity: 0 }}
           transition={{ type: "spring", stiffness: 300, damping: 50 }}
           className={clsx(
-            "relative h-full mx-2  customMiniTablet:mx-10 bg-white rounded-lg text-customGray-400 mt-8 w-full  customTablet1:w-[764px]"
+            "relative h-full mx-2  customMiniTablet:mx-10 bg-white rounded-lg text-customGray-400 mt-8 w-full  customTablet1:w-[764px]",
           )}
         >
           <span
@@ -34,20 +34,20 @@ const ExternalPopUp = ({ cancel }) => {
           >
             <IoIosCloseCircle size={25} />
           </span>
-          <div className="px-7 customTablet1:px-20 pt-20 customTablet1:pb-14 pb-5 text-customGray-400">
-            <div className="w-full flex justify-center">
+          <div className="pt-20 pb-5 px-7 customTablet1:px-20 customTablet1:pb-14 text-customGray-400">
+            <div className="flex justify-center w-full">
               <h3 className="w-[220px] customTablet1:w-full mb-5 text-xl customTablet1:text-[47px] font-light text-center leading-[1.2] customTablet1:mb-14">
                 We&apos;ve Made it Easier to Add an External Account
               </h3>
             </div>
-            <div className="customTablet1:flex justify-between items-center mb-5 px-4 space-y-3 customTablet1:space-y-0">
+            <div className="items-center justify-between px-4 mb-5 space-y-3 customTablet1:flex customTablet1:space-y-0">
               {externalProfile.map((ext) => {
                 const { id, icon, name } = ext;
                 return (
                   <div key={id} className="">
                     <div
                       className={clsx(
-                        "w-full  flex justify-center mb-1 customTablet1:mb-3"
+                        "w-full  flex justify-center mb-1 customTablet1:mb-3",
                       )}
                     >
                       <p className="rounded-full w-16 h-16 customTablet1:w-24 customTablet1:h-24 border-[2px] border-customBlue-1035 flex justify-center text-3xl items-center  customTablet1:text-5xl text-customBlue-1035">
@@ -56,7 +56,7 @@ const ExternalPopUp = ({ cancel }) => {
                     </div>
                     <h3
                       className={clsx(
-                        "w-full  text-center text-sm customTablet1:text-xl"
+                        "w-full  text-center text-sm customTablet1:text-xl",
                       )}
                     >
                       {name}
@@ -65,7 +65,7 @@ const ExternalPopUp = ({ cancel }) => {
                 );
               })}
             </div>
-            <div className="flex flex-col justify-center space-y-6 w-full items-center ">
+            <div className="flex flex-col items-center justify-center w-full space-y-6 ">
               <button
                 className="w-full customTablet1:w-[240px] hover:bg-customBlue-700 transistion2 py-3 font-medium rounded-md text-white bg-customBlue-1035"
                 onClick={() => setExistPlan(true)}
@@ -73,15 +73,15 @@ const ExternalPopUp = ({ cancel }) => {
                 Get Started
               </button>
               <button
-                className="text-customBlue-500 underline font-medium"
+                className="font-medium underline text-customBlue-500"
                 onClick={() => setExistPlan(true)}
               >
                 Link Account Manually
               </button>
             </div>
           </div>
-          <div className="mx-7 border-t border-t-customBlue-1035 pt-3 pb-5 text-xs space-y-2">
-            <h2 className="text-center customTablet1:text-start font-medium">
+          <div className="pt-3 pb-5 space-y-2 text-xs border-t mx-7 border-t-customBlue-1035">
+            <h2 className="font-medium text-center customTablet1:text-start">
               How we protect your information
             </h2>
             <p>
@@ -100,7 +100,7 @@ const ExternalPopUp = ({ cancel }) => {
         {existPlan && (
           <BankInfo
             cancel={setExistPlan}
-            text="Connect your External Bank Account with Citi Instant Account Verification"
+            text="Connect your External Bank Account with Pz Instant Account Verification"
             para="or if you have your account and routine number, you can verify
                 your accounts manually."
           />

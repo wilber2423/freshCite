@@ -38,7 +38,7 @@ const LinkApproval = ({ cancel, unCancel }) => {
       transition={{ type: "spring", stiffness: 300, damping: 50 }}
       className={clsx(
         "relative w-full  h-full  rounded-lg text-customGray-400  customMiniTablet:mt-8  customMiniTablet:w-[650px]",
-        unCancel ? "block" : "hidden"
+        unCancel ? "block" : "hidden",
       )}
     >
       <span
@@ -55,11 +55,11 @@ const LinkApproval = ({ cancel, unCancel }) => {
           <p>
             We sent an Approval to{" "}
             <span className="font-bold">[{tyoeOfPhone}].</span> Use your
-            biometric or PIN to sign on Citi Mobile<sup>&reg;</sup> App and
+            biometric or PIN to sign on Pz Mobile<sup>&reg;</sup> App and
             confirm your identity. After you approve the transaction, return to
             this page and select Continue. <br />{" "}
             <span className="font-bold">Note:</span> If you did not receive an
-            Approval Request, please sign off Citi Mobile
+            Approval Request, please sign off Pz Mobile
             <sup>&reg;</sup> App, then sign on again
           </p>
           <p>

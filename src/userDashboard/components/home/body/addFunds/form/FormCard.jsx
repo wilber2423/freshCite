@@ -68,7 +68,7 @@ const FormCard = ({ formd }) => {
                   bankOpen: false,
                 }))
               }
-              text="Connect your External Bank Account with Citi Instant Account Verification"
+              text="Connect your External Bank Account with Pz Instant Account Verification"
               para="or if you have your account and routine number, you can verify
                 your accounts manually."
             />

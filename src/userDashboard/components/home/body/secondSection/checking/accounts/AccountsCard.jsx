@@ -8,9 +8,9 @@ const AccountsCard = ({ numberChecking, name }) => {
         <h3 className="mb-5 text-[25.7px] font-light tracking-wide">{name}</h3>
         <div className="block gap-8 space-y-3 customXlg:flex customXlg:space-y-0">
           <div className="block gap-6 customXlg:flex">
-            <div className="w-[74.2px] h-[46.75px] customXlg:block hidden">
+            {/* <div className="w-[74.2px] h-[46.75px] customXlg:block hidden">
               <img src={card} alt="" className="w-full h-full" />
-            </div>
+            </div> */}
             <div className="space-y-2">
               <p className="text-[15.2px] flex items-center gap-1">
                 Available Now <AiOutlineInfoCircle size={24} className="mb-1" />

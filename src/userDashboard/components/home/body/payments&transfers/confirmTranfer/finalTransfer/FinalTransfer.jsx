@@ -192,8 +192,8 @@ const FinalTransfer = () => {
                   </p>
                 </div>
                 <p className="text-xs">
-                  By selecting &quot;Transfer Now&quot;&apos;you authorize Citi
-                  to initiate a one-time ACH transfer as describe above.
+                  By selecting &quot;Transfer Now&quot;&apos;you authorize Pz to
+                  initiate a one-time ACH transfer as describe above.
                 </p>
               </>
             )}

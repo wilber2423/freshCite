@@ -6,8 +6,8 @@ const SecondPart = () => {
     <div>
       <DidYouKnow
         img={scanner}
-        manage="You can Move Money on the Go with the Citi Mobile App"
-        details="Scan the QR code with the camera on your mobile device to download or open the Citi Mobile App for both ios and Android"
+        manage="You can Move Money on the Go with the Pz Mobile App"
+        details="Scan the QR code with the camera on your mobile device to download or open the Pz Mobile App for both ios and Android"
       />
     </div>
   );

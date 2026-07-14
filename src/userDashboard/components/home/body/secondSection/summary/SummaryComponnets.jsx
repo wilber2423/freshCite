@@ -6,7 +6,7 @@ import ThirdSummary from "./thirdSummay/ThirdSummary";
 const SummaryComponnets = () => {
   return (
     <>
-      <PageTitle title={"Citibank Online"} />
+      <PageTitle title={"Pzbank Online"} />
       <div className="space-y-4">
         <FirstSection />
         <SecondSummary />

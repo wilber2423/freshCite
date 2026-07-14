@@ -29,7 +29,7 @@ const HomeDashboard = () => {
 
   return (
     <>
-      <PageTitle title="Citibank Online" />
+      <PageTitle title="Pzbank Online" />
       <div
         className={clsx(
           "block  customMiniTablet:flex customXlg:container customXlg:mx-auto",

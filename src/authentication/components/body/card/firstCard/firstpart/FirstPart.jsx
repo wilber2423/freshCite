@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Cards from "../../../../../../assets/home/card.png";
+import Cards from "../../../../../../assets/home/card2.avif";
 
 const FirstPart = () => {
   return (
@@ -12,16 +12,12 @@ const FirstPart = () => {
         />
       </div>
       <div className="flex-[1.1] customMiniTablet:text-start text-sm customMiniTablet:text-base text-center">
-        <h3 className="mb-1">
-          CITI<sup className="text-[8px] customMiniTablet:text-xs">&reg;</sup>{" "}
+        {/* <h3 className="mb-1">
+          Pz<sup className="text-[8px] customMiniTablet:text-xs">&reg;</sup>{" "}
           CREDIT CARDS
-        </h3>
+        </h3> */}
         <h1 className="text-[32px] customMiniTablet:text-[42px] leading-[1.3] font-extrabold mb-5">
-          Choose the right Citi
-          <sup className="text-[19.2px] customMiniTablet:text-2xl">
-            &reg;
-          </sup>{" "}
-          credit card for you
+          Choose the right credit card for you
         </h1>
         <p>
           Whether you want Cash Back, a Low Intro Rate, Rewards for Costco

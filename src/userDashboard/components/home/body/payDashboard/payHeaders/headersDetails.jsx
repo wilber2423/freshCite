@@ -7,7 +7,7 @@ export const payHeadersDetails = [
   {
     id: 1,
     bottomHeader:
-      "Quickly and easily transfer money between your Citi accounts or between your Citi and external banks accounts",
+      "Quickly and easily transfer money between your Pz accounts or between your Pz and external banks accounts",
     path: "/payDashboard/accounts",
     element: "Transfer Between Accounts",
     icon: MdOutlineCurrencyExchange,

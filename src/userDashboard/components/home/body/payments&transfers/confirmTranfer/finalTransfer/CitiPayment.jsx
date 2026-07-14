@@ -45,11 +45,11 @@ const CitiPayment = ({ cancel }) => {
             </h1>
             <p>
               To proceed with your transaction, respond to the Approval Request
-              using your Citi Mobile<sup>&reg;</sup> App. Simply sign on with
+              using your Pz Mobile<sup>&reg;</sup> App. Simply sign on with
               biometric or PIN and approve the transaction.
             </p>
             <p>
-              Please be sure you&apos;re signed out of the Citi Mobile
+              Please be sure you&apos;re signed out of the Pz Mobile
               <sup>&reg;</sup> App before clicking Continue.
             </p>
             <div className="pb-10 border-b border-b-customGray-200">

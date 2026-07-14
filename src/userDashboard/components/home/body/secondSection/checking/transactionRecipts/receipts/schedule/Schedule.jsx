@@ -26,14 +26,14 @@ const Schedule = () => {
         <div className="px-0 space-y-3 leading-6 customXlg:px-4 text-customXST2 text-customGray-200">
           <p>
             Please be aware that some transactions would not be displayed
-            immediately. You can rest easy knowing that Citi&apos;s online Bill
+            immediately. You can rest easy knowing that Pz&apos;s online Bill
             Payment Promises is behind every payment you make.
             <span className="underline text-customBlue-500">Learn More</span>
           </p>
           <p>
-            Please note: Any Citi credit card payment made on a weekend or
-            holiday will be credited as the day you make it. However, it will
-            not be posted for up to two weekdays.
+            Please note: Any Pz credit card payment made on a weekend or holiday
+            will be credited as the day you make it. However, it will not be
+            posted for up to two weekdays.
           </p>
           <p></p>
         </div>

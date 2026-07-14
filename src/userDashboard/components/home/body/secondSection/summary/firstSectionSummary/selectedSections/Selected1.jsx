@@ -14,16 +14,16 @@ const Selected1 = ({ setModal }) => {
               <FaMoneyBill size={24} className="mt-8 text-customBlue-500" />
               <div className="w-[190px] mt-5 space-y-1">
                 <p className="font-light tracking-widest text-customXST text-customGray-200 ">
-                  Citi&reg; Savings Acc...-{savingNav}
+                  Pz&reg; Savings Acc...-{savingNav}
                 </p>
                 <h3 className="text-customGray-400">
-                  Citi Certificate of Deposit
+                  Pz Certificate of Deposit
                 </h3>
               </div>
               <span className="border-r h-[90px] border-customGray-500"></span>
               <div className="w-[110px] mt-6">
                 <h3 className="font-extrabold tracking-widest text-customGray-400">
-                  Citi CD
+                  Pz CD
                 </h3>
                 <p className="font-light tracking-tighter text-customXST text-customGray-200 ">
                   Member FDIC

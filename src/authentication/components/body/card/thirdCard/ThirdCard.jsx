@@ -9,7 +9,7 @@ import Card3 from "@/assets/home/card/card3.jpg";
 const ThirdCard = () => {
   return (
     <div>
-      <FirstPart
+      {/* <FirstPart
         img={Card1}
         title="DIAMOND PREFERED®"
         name="Low Intro APR Plus No Annual Fee"
@@ -23,10 +23,10 @@ const ThirdCard = () => {
         name="Explore Citi® / AAdvantage® Credit Cards"
         info="Whether you're a frequent flyer or first—time passenger, Citi has an airline rewards credit card to meet your travel needs."
         btn="Learn More"
-      />
+      /> */}
       <FirstPart
         img={Card3}
-        title="CITI FINANCIAL PATHWAYS"
+        title="Pz FINANCIAL PATHWAYS"
         name="A New Path Forward"
         info="Whether you’re new to budgets or a seasoned investor, we’ve got products and resources that can help."
         btn="Explore Now"

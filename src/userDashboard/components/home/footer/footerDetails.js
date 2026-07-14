@@ -1,6 +1,6 @@
 export const footer1 = [
   {
-    name: "Why Citi",
+    name: "Why Pz",
     children: [
       {
         name: "Our Story",
@@ -18,7 +18,7 @@ export const footer1 = [
         name: "Products & Offers",
       },
       {
-        name: "Citi Entertainment®",
+        name: "Pz Entertainment®",
       },
       {
         name: "Special Offers",
@@ -29,16 +29,16 @@ export const footer1 = [
     name: "Wealth Management",
     children: [
       {
-        name: "Citigold® Private Client",
+        name: "Pzgold® Private Client",
       },
       {
-        name: "Citigold",
+        name: "Pzgold",
       },
       {
-        name: "Citi Priority",
+        name: "Pz Priority",
       },
       {
-        name: "Citi Private Bank",
+        name: "Pz Private Bank",
       },
     ],
   },
@@ -92,7 +92,7 @@ export const footer1 = [
         name: "Products & Offers",
       },
       {
-        name: "Citi Entertainment®",
+        name: "Pz Entertainment®",
       },
       {
         name: "Special Offers",

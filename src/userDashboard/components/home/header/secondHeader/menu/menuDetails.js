@@ -35,14 +35,14 @@ export const menuDetails2 = [
           {
             id: 111,
             path: "",
-            element: "Citi® Credit Knowledge Center",
+            element: "Knowledge Center",
           },
           {
             id: 121,
             path: "",
             element: "See If You’re Pre-Qualified",
           },
-          { id: 131, path: "", element: "Citi Shop" },
+          // { id: 131, path: "", element: "Pz Shop" },
           {
             id: 141,
             path: "",
@@ -92,7 +92,7 @@ export const menuDetails2 = [
           {
             id: 122,
             path: "",
-            element: "Citi® Bonus Offers",
+            element: "Pz® Bonus Offers",
           },
         ],
       },
@@ -197,17 +197,17 @@ export const menuDetails2 = [
     children: [
       {
         id: 65,
-        labels: "Citigold",
+        labels: "Pzgold",
         children: [
           {
             id: 75,
             path: "",
-            element: "Citigold® Private Client",
+            element: "Pzgold® Private Client",
           },
           {
             id: 85,
             path: "",
-            element: "Citi Priority",
+            element: "Pz Priority",
           },
         ],
       },

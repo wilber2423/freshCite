@@ -86,7 +86,7 @@ const Golden1 = ({
                 <p>
                   By selecting &quot;Next&quot; you are consenting to allow
                   Fiserv to facilitate sharing your data from Golden1 Credit
-                  Union - Personal Banking to share with Citibank via Plaid. The
+                  Union - Personal Banking to share with Pzbank via Plaid. The
                   information to be shared may include account balances,
                   transaction details, account ownership information as well as
                   other account details. In addition, shared details may include
@@ -97,11 +97,11 @@ const Golden1 = ({
                 </p>
                 <p>
                   Golden1 Credit Union - Personal Banking has no affiliation
-                  with Citibank and Plaid and is not responsible for the privacy
+                  with Pzbank and Plaid and is not responsible for the privacy
                   and security of your data when you share it with them. It is
                   your responsibility to review and understand the Terms and
                   Conditions, Privacy Policy and related security documentation
-                  issued by Citibank and Plaid for full details regarding the
+                  issued by Pzbank and Plaid for full details regarding the
                   usage of your data.
                 </p>
               </div>
@@ -158,11 +158,11 @@ const Golden1 = ({
                             By selecting &quot;Next&quot; you are consenting to
                             allow Fiserv to facilitate sharing your data from
                             Golden1 Credit Union - Personal Banking to share
-                            with Citibank via Plaid. The information to be
-                            shared may include account balances, transaction
-                            details, account ownership information as well as
-                            other account details. In addition, shared details
-                            may include full account number and routing number,
+                            with Pzbank via Plaid. The information to be shared
+                            may include account balances, transaction details,
+                            account ownership information as well as other
+                            account details. In addition, shared details may
+                            include full account number and routing number,
                             which can be used to verify your account and
                             facilitate transactions between you and the entities
                             with which you do business, by allowing you to link
@@ -170,12 +170,12 @@ const Golden1 = ({
                           </p>
                           <p>
                             Golden1 Credit Union - Personal Banking has no
-                            affiliation with Citibank and Plaid and is not
+                            affiliation with Pzbank and Plaid and is not
                             responsible for the privacy and security of your
                             data when you share it with them. It is your
                             responsibility to review and understand the Terms
                             and Conditions, Privacy Policy and related security
-                            documentation issued by Citibank and Plaid for full
+                            documentation issued by Pzbank and Plaid for full
                             details regarding the usage of your data.
                           </p>
                         </div>
