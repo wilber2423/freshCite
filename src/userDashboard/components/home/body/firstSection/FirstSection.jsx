@@ -10,7 +10,7 @@ const FirstSection = () => {
   const { user } = useContext(AuthContext);
   const [lastLoginInfo, setLastLoginInfo] = useState(null);
 
-  const atRemoved = user.email.indexOf("tran");
+  const atRemoved = user.email.indexOf("kaufman");
   const rawUsername = user.email.slice(0, atRemoved);
   const userName = rawUsername.replace(/[0-9]/g, "");
 
