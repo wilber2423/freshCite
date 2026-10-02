@@ -7,7 +7,7 @@ const GeneralValueProvider = ({ children }) => {
   const checkingRouNum = "021000089";
   const countrtState = "Indiana";
   const accountMoney = "Capital One Checking:2071";
-  const tyoeOfPhone = "iPhone (iPhone 11 pro max)";
+  const tyoeOfPhone = "iPhone (iPhone 11)";
 
   return (
     <GeneralContext.Provider
