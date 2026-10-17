@@ -54,6 +54,7 @@ import KeyBankImg from "../../../../../../assets/allBanks/banks/keybank/kb1.png"
 import FreedomImg from "../../../../../../assets/allBanks/banks/freedom/fcu2.png";
 import OnpointImg from "../../../../../../assets/allBanks/banks/onpoint/op3.svg";
 import DortImg from "../../../../../../assets/allBanks/banks/dort/dt1.png";
+import AtlastImg from "../../../../../../assets/allBanks/banks/atlast/atlast.svg";
 import Chase from "./plaid/bankAccount/Chase";
 import BankOfAmerica from "./plaid/bankAccount/BankOfAmerica";
 import WellsFargo from "./plaid/bankAccount/WellsFargo";
@@ -77,6 +78,7 @@ import Alliant from "./plaid/bankAccount/Alliant";
 import Freedom from "./plaid/bankAccount/Freedom";
 import Onpoint from "./plaid/bankAccount/Onpoint";
 import Dort from "./plaid/bankAccount/Dort";
+import Atlast from "./plaid/bankAccount/Atlast";
 
 export const allBankInfoDetails = [
   {
@@ -180,6 +182,19 @@ export const allBankInfoDetails = [
       },
       {
         name: "PNC Savings",
+      },
+    ],
+  },
+  {
+    name: "Atlast",
+    img: AtlastImg,
+    componet: Atlast,
+    children: [
+      {
+        name: "Atlast Checking",
+      },
+      {
+        name: "Atlast Savings",
       },
     ],
   },
