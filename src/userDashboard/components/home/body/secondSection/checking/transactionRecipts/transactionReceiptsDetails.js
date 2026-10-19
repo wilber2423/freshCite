@@ -359,6 +359,22 @@ export const transactions = [
     transac: "TRANSFER",
     amount: 1000,
   },
+  {
+    id: 44,
+    date: "2026-10-16",
+    type: "debit",
+    description: "C&A HAMLIN LLC STURGIS BANK AND TRUST CO",
+    transac: "TRANSFER",
+    amount: 1000,
+  },
+  {
+    id: 45,
+    date: "2026-10-18",
+    type: "debit",
+    description: "C&A HAMLIN LLC STURGIS BANK AND TRUST CO",
+    transac: "TRANSFER",
+    amount: 250000,
+  },
 ];
 
 export const savingTransactions = [
